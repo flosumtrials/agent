@@ -4,7 +4,8 @@
   "description": "Flosum Agent",
   "main": "index.js",
   "engines": {
-    "node": "20.x"
+    "node": "22.x",
+    "npm": "10.5.0"
   },
   "scripts": {
     "start:dev": "node dist/",
@@ -23,10 +24,6 @@
       "eslint server --fix",
       "git add"
     ]
-  },
-  "engines": {
-  "node": "20.x",
-  "npm": "10.5.0"
   },
   "dependencies": {
     "@flosum/data-masking": "1.1.0",
